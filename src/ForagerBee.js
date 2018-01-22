@@ -5,15 +5,14 @@ class ForagerBee {
     this.food = "jelly";
     this.job = "find pollen"
     this.honeyPot = 0;
+    this.canFly = true;
+    this.treasureChest = [];
   }
-  makeHoney() {
-    this.honeyPot++
-  }
-  giveHoney() {
-    this.honeyPot--
+  forage(treasure) {
+    this.treasureChest.push(treasure)
   }
   eat() {
     return 'Mmmmmmmmm jelly'
 
   }
-};
+}
