@@ -8,14 +8,16 @@ class RetiredForagerBee {
     this.canFly = false;
     this.treasureChest = [];
   }
+
   forage() {
     return ("I am too old, let me play cards instead");
   }
+
   gamble(treasure) {
     this.treasureChest.push(treasure)
   }
+
   eat() {
     return 'Mmmmmmmmm jelly'
-
   }
-}
+};

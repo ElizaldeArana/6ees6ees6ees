@@ -8,6 +8,5 @@ class Bee {
 
   eat() {
     return 'Mmmmmmmmm jelly'
-
   }
 };

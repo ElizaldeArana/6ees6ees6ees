@@ -8,11 +8,12 @@ class ForagerBee {
     this.canFly = true;
     this.treasureChest = [];
   }
+
   forage(treasure) {
     this.treasureChest.push(treasure)
   }
+
   eat() {
     return 'Mmmmmmmmm jelly'
-
   }
-}
+};

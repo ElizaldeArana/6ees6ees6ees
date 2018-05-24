@@ -14,6 +14,5 @@ class HoneyMakerBee {
   }
   eat() {
     return 'Mmmmmmmmm jelly'
-
   }
 };
